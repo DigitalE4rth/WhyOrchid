@@ -3,7 +3,7 @@
   <Profiles />
   <Settings>
     <Setting Name="Color_Primary" Type="System.String" Scope="User">
-      <Value Profile="(Default)">#9478f0</Value>
+      <Value Profile="(Default)">#2cb065</Value>
     </Setting>
     <Setting Name="Color_OnPrimary" Type="System.String" Scope="User">
       <Value Profile="(Default)">#ffffff</Value>
