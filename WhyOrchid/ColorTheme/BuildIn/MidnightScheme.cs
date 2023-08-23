@@ -34,7 +34,7 @@ public sealed class MidnightScheme : ColorSchemeBase
     public override string? Outline { get; set; } = "#3f3f3f";
     public override string? OutlineVariant { get; set; } = "#292929";
 
-    public override string? Interaction { get; set; } = "#14dadada";
+    public override string? Interaction { get; set; } = "#0AFFFFFF";
 
     public override string? Shadow { get; set; } = "#000000";
 }
