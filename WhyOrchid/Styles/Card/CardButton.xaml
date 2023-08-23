@@ -1,7 +1,8 @@
 ﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
                     xmlns:controls="clr-namespace:WhyOrchid.Controls"
-                    xmlns:properties="clr-namespace:WhyOrchid.Properties">
+                    xmlns:properties="clr-namespace:WhyOrchid.Properties"
+                    xmlns:sys="clr-namespace:System;assembly=mscorlib">
 
     <Style x:Key="CardButtonFocusVisualStyle">
         <Setter Property="Control.Template">
@@ -134,11 +135,27 @@
                             <Setter TargetName="GridTitleDescription" Property="Visibility" Value="Collapsed" />
                         </MultiTrigger>
 
+                        <MultiTrigger>
+                            <MultiTrigger.Conditions>
+                                <Condition Property="Title" Value="{x:Static sys:String.Empty}" />
+                                <Condition Property="Description" Value="{x:Static sys:String.Empty}" />
+                            </MultiTrigger.Conditions>
+                            <Setter TargetName="GridTitleDescription" Property="Visibility" Value="Collapsed" />
+                        </MultiTrigger>
+
                         <Trigger Property="Description" Value="{x:Null}">
                             <Setter TargetName="DescriptionContent" Property="Visibility" Value="Collapsed" />
                         </Trigger>
 
+                        <Trigger Property="Description" Value="{x:Static sys:String.Empty}">
+                            <Setter TargetName="DescriptionContent" Property="Visibility" Value="Collapsed" />
+                        </Trigger>
+
                         <Trigger Property="Content" Value="{x:Null}">
+                            <Setter TargetName="ContentPresenter" Property="Visibility" Value="Collapsed" />
+                        </Trigger>
+
+                        <Trigger Property="Content" Value="{x:Static sys:String.Empty}">
                             <Setter TargetName="ContentPresenter" Property="Visibility" Value="Collapsed" />
                         </Trigger>
 
@@ -204,3 +221,4 @@
         </Setter>
     </Style>
 </ResourceDictionary>
+    
