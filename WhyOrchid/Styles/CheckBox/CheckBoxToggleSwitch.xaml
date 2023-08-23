@@ -59,18 +59,18 @@
                         </Grid>
 
                         <Border x:Name="PinButton"
-                                Width="22"
-                                Height="22"
-                                Margin="2,0,0,0"
+                                Width="20"
+                                Height="20"
+                                Margin="4,0,0,0"
                                 HorizontalAlignment="Left"
                                 VerticalAlignment="Center"
                                 Background="{Binding Source={x:Static properties:Settings.Default}, Path=Color_OnPrimary, Mode=OneTime}"
                                 CornerRadius="11">
                             <Border.Effect>
-                                <DropShadowEffect BlurRadius="10"
+                                <DropShadowEffect BlurRadius="5"
                                                   Opacity="0.15"
                                                   ShadowDepth="0"
-                                                  Color="{Binding Source={x:Static properties:Settings.Default}, Path=Color_Shadow}" />
+                                                  Color="{Binding Source={x:Static properties:Settings.Default}, Path=Color_Shadow, Mode=OneTime}" />
                             </Border.Effect>
                         </Border>
                     </Grid>
@@ -145,7 +145,7 @@
                                     <Storyboard>
                                         <ThicknessAnimation Storyboard.TargetName="PinButton"
                                                             Storyboard.TargetProperty="Margin"
-                                                            To="2,0,0,0"
+                                                            To="4,0,0,0"
                                                             Duration="0:0:0.1" />
 
                                         <DoubleAnimation Storyboard.TargetName="OnBackground"
