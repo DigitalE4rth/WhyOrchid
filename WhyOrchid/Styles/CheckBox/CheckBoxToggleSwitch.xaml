@@ -67,8 +67,8 @@
                                 Background="{Binding Source={x:Static properties:Settings.Default}, Path=Color_OnPrimary, Mode=OneTime}"
                                 CornerRadius="11">
                             <Border.Effect>
-                                <DropShadowEffect BlurRadius="5"
-                                                  Opacity="0.15"
+                                <DropShadowEffect BlurRadius="8"
+                                                  Opacity="0.2"
                                                   ShadowDepth="0"
                                                   Color="{Binding Source={x:Static properties:Settings.Default}, Path=Color_Shadow, Mode=OneTime}" />
                             </Border.Effect>
