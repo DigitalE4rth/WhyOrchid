@@ -60,6 +60,7 @@
     <Compile Include="ColorTheme\Models\ColorTheme.cs" />
     <Compile Include="ColorTheme\Models\EBuiltInTheme.cs" />
     <Compile Include="Controls\ComboBox.cs" />
+    <Compile Include="Controls\MenuStateButton.cs" />
     <Compile Include="Controls\ToggleButton.cs" />
     <Compile Include="Controls\Button.cs" />
     <Compile Include="Controls\CardButton.cs" />
@@ -75,6 +76,10 @@
     <Compile Include="Controls\ToggleSwitch.cs" />
     <Compile Include="Converters\DropDownMenuHorizontalOffsetConverter.cs" />
     <Compile Include="Converters\CornerRadiusConverter.cs" />
+    <Page Include="Styles\Button\ButtonMenuState.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
     <Page Include="Styles\Button\ButtonMenu.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>

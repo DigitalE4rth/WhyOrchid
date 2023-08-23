@@ -6,6 +6,7 @@
         <!--  Button  -->
         <ResourceDictionary Source="Button/ButtonFilled.xaml" />
         <ResourceDictionary Source="Button/ButtonMenu.xaml" />
+        <ResourceDictionary Source="Button/ButtonMenuState.xaml" />
         <ResourceDictionary Source="Button/ButtonOutlined.xaml" />
         <ResourceDictionary Source="Button/ButtonText.xaml" />
         <ResourceDictionary Source="Button/ButtonTonal.xaml" />

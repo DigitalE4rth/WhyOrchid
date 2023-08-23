@@ -13,7 +13,7 @@
         </Setter>
     </Style>
 
-    <Style TargetType="{x:Type controls:MenuButton}">
+    <Style TargetType="{x:Type controls:MenuStateButton}">
         <Setter Property="SnapsToDevicePixels" Value="True" />
         <Setter Property="Cursor" Value="{Binding Source={x:Static properties:Settings.Default}, Path=UI_CursorType, Mode=OneTime}" />
         <Setter Property="Margin" Value="2" />
@@ -24,7 +24,7 @@
         <Setter Property="Foreground" Value="{Binding Source={x:Static properties:Settings.Default}, Path=Color_OnSurface, Mode=OneTime}" />
         <Setter Property="Template">
             <Setter.Value>
-                <ControlTemplate TargetType="{x:Type controls:MenuButton}">
+                <ControlTemplate TargetType="{x:Type controls:MenuStateButton}">
                     <Grid x:Name="templateRoot"
                           Background="Transparent"
                           SnapsToDevicePixels="True">
@@ -72,12 +72,23 @@
                                     <ColumnDefinition />
                                 </Grid.ColumnDefinitions>
 
-                                <!--  Left icon  -->
-                                <ContentControl x:Name="LeftIcon"
+                                <!--  Active icon  -->
+                                <ContentControl x:Name="IconActive"
                                                 Grid.Column="0"
                                                 Margin="{TemplateBinding IconMargin}"
                                                 VerticalAlignment="Center"
                                                 Content="{TemplateBinding Icon}"
+                                                Focusable="False"
+                                                IsHitTestVisible="False"
+                                                Opacity="0"
+                                                SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}" />
+
+                                <!--  Inactive icon  -->
+                                <ContentControl x:Name="IconInactive"
+                                                Grid.Column="0"
+                                                Margin="{TemplateBinding IconMargin}"
+                                                VerticalAlignment="Center"
+                                                Content="{TemplateBinding IconInactive}"
                                                 Focusable="False"
                                                 IsHitTestVisible="False"
                                                 SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}" />
@@ -97,14 +108,18 @@
                     <ControlTemplate.Triggers>
 
                         <Trigger Property="Icon" Value="{x:Null}">
-                            <Setter TargetName="LeftIcon" Property="Visibility" Value="Collapsed" />
+                            <Setter TargetName="IconActive" Property="Visibility" Value="Collapsed" />
+                        </Trigger>
+
+                        <Trigger Property="IconInactive" Value="{x:Null}">
+                            <Setter TargetName="IconInactive" Property="Visibility" Value="Collapsed" />
                         </Trigger>
 
                         <Trigger Property="IsEnabled" Value="False">
                             <Setter Property="Opacity" Value="0.38" />
                         </Trigger>
 
-                        <EventTrigger RoutedEvent="controls:MenuButton.Loaded">
+                        <EventTrigger RoutedEvent="controls:MenuStateButton.Loaded">
                             <SkipStoryboardToFill BeginStoryboardName="CheckedStoryboard" />
                             <SkipStoryboardToFill BeginStoryboardName="UnCheckedStoryboard" />
                         </EventTrigger>
@@ -124,6 +139,18 @@
                                                          From="0"
                                                          To="1"
                                                          Duration="0:0:0.1" />
+
+                                        <DoubleAnimation Storyboard.TargetName="IconActive"
+                                                         Storyboard.TargetProperty="Opacity"
+                                                         From="0"
+                                                         To="1"
+                                                         Duration="0:0:0.05" />
+
+                                        <DoubleAnimation Storyboard.TargetName="IconInactive"
+                                                         Storyboard.TargetProperty="Opacity"
+                                                         From="1"
+                                                         To="0"
+                                                         Duration="0:0:0.1" />
                                     </Storyboard>
                                 </BeginStoryboard>
                             </Trigger.EnterActions>
@@ -142,6 +169,18 @@
                                                          From="1"
                                                          To="0"
                                                          Duration="0:0:0.1" />
+
+                                        <DoubleAnimation Storyboard.TargetName="IconActive"
+                                                         Storyboard.TargetProperty="Opacity"
+                                                         From="1"
+                                                         To="0"
+                                                         Duration="0:0:0.1" />
+
+                                        <DoubleAnimation Storyboard.TargetName="IconInactive"
+                                                         Storyboard.TargetProperty="Opacity"
+                                                         From="0"
+                                                         To="1"
+                                                         Duration="0:0:0.05" />
                                     </Storyboard>
                                 </BeginStoryboard>
                             </Trigger.ExitActions>
@@ -206,4 +245,3 @@
         </Setter>
     </Style>
 </ResourceDictionary>
-    
