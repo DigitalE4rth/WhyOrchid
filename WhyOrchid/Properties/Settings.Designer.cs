@@ -37,7 +37,7 @@ namespace WhyOrchid.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("#ffffff")]
+        [global::System.Configuration.DefaultSettingValueAttribute("#f0f0f0")]
         public string Color_OnPrimary {
             get {
                 return ((string)(this["Color_OnPrimary"]));
@@ -49,7 +49,7 @@ namespace WhyOrchid.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("#ffffff")]
+        [global::System.Configuration.DefaultSettingValueAttribute("#222222")]
         public string Color_Secondary {
             get {
                 return ((string)(this["Color_Secondary"]));
@@ -61,7 +61,7 @@ namespace WhyOrchid.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("#000000")]
+        [global::System.Configuration.DefaultSettingValueAttribute("#f0f0f0")]
         public string Color_OnSecondary {
             get {
                 return ((string)(this["Color_OnSecondary"]));
@@ -73,7 +73,7 @@ namespace WhyOrchid.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("#645A72")]
+        [global::System.Configuration.DefaultSettingValueAttribute("#6981d0")]
         public string Color_Tertiary {
             get {
                 return ((string)(this["Color_Tertiary"]));
@@ -85,7 +85,7 @@ namespace WhyOrchid.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("#FFFFFF")]
+        [global::System.Configuration.DefaultSettingValueAttribute("#f0f0f0")]
         public string Color_OnTertiary {
             get {
                 return ((string)(this["Color_OnTertiary"]));
@@ -97,7 +97,7 @@ namespace WhyOrchid.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("#BA1A1A")]
+        [global::System.Configuration.DefaultSettingValueAttribute("#aa3d41")]
         public string Color_Error {
             get {
                 return ((string)(this["Color_Error"]));
@@ -109,7 +109,7 @@ namespace WhyOrchid.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("#FFFFFF")]
+        [global::System.Configuration.DefaultSettingValueAttribute("#f0f0f0")]
         public string Color_OnError {
             get {
                 return ((string)(this["Color_OnError"]));
@@ -121,7 +121,7 @@ namespace WhyOrchid.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("#fafafa")]
+        [global::System.Configuration.DefaultSettingValueAttribute("#141414")]
         public string Color_Background {
             get {
                 return ((string)(this["Color_Background"]));
@@ -133,7 +133,7 @@ namespace WhyOrchid.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("#323232")]
+        [global::System.Configuration.DefaultSettingValueAttribute("#dadada")]
         public string Color_OnBackground {
             get {
                 return ((string)(this["Color_OnBackground"]));
@@ -145,7 +145,7 @@ namespace WhyOrchid.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("#ffffff")]
+        [global::System.Configuration.DefaultSettingValueAttribute("#222222")]
         public string Color_Surface {
             get {
                 return ((string)(this["Color_Surface"]));
@@ -157,7 +157,7 @@ namespace WhyOrchid.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("#383838")]
+        [global::System.Configuration.DefaultSettingValueAttribute("#dadada")]
         public string Color_OnSurface {
             get {
                 return ((string)(this["Color_OnSurface"]));
@@ -169,7 +169,7 @@ namespace WhyOrchid.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("#ffffff")]
+        [global::System.Configuration.DefaultSettingValueAttribute("#292929")]
         public string Color_SurfaceVariant {
             get {
                 return ((string)(this["Color_SurfaceVariant"]));
@@ -181,7 +181,7 @@ namespace WhyOrchid.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("#bf414141")]
+        [global::System.Configuration.DefaultSettingValueAttribute("#8b8b8b")]
         public string Color_OnSurfaceVariant {
             get {
                 return ((string)(this["Color_OnSurfaceVariant"]));
@@ -193,7 +193,7 @@ namespace WhyOrchid.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("#dcdcdc")]
+        [global::System.Configuration.DefaultSettingValueAttribute("#3f3f3f")]
         public string Color_Outline {
             get {
                 return ((string)(this["Color_Outline"]));
@@ -205,7 +205,7 @@ namespace WhyOrchid.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("#dcdcdc")]
+        [global::System.Configuration.DefaultSettingValueAttribute("#292929")]
         public string Color_OutlineVariant {
             get {
                 return ((string)(this["Color_OutlineVariant"]));
@@ -217,7 +217,7 @@ namespace WhyOrchid.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("#14383838")]
+        [global::System.Configuration.DefaultSettingValueAttribute("#0dffffff")]
         public string Color_Interaction {
             get {
                 return ((string)(this["Color_Interaction"]));
@@ -325,7 +325,7 @@ namespace WhyOrchid.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("#000000")]
+        [global::System.Configuration.DefaultSettingValueAttribute("#ffffff")]
         public string Color_InverseBackground {
             get {
                 return ((string)(this["Color_InverseBackground"]));
@@ -349,7 +349,7 @@ namespace WhyOrchid.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("#000000")]
+        [global::System.Configuration.DefaultSettingValueAttribute("#ffffff")]
         public string Color_InverseSurface {
             get {
                 return ((string)(this["Color_InverseSurface"]));
@@ -373,7 +373,7 @@ namespace WhyOrchid.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("#000000")]
+        [global::System.Configuration.DefaultSettingValueAttribute("#ffffff")]
         public string Color_InverseSurfaceVariant {
             get {
                 return ((string)(this["Color_InverseSurfaceVariant"]));

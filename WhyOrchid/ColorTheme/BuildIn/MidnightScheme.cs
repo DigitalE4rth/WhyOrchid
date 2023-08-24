@@ -4,16 +4,16 @@ namespace WhyOrchid.ColorTheme.BuildIn;
 
 public sealed class MidnightScheme : ColorSchemeBase
 {
-    public override string? Primary { get; set; } = "#7764d8";
+    public override string? Primary { get; set; } = "#2cb065";
     public override string? OnPrimary { get; set; } = "#f0f0f0";
 
-    public override string? Secondary { get; set; } = "#232323";
-    public override string? OnSecondary { get; set; } = "#000000";
+    public override string? Secondary { get; set; } = "#222222";
+    public override string? OnSecondary { get; set; } = "#f0f0f0";
 
-    public override string? Tertiary { get; set; } = "#645a72";
-    public override string? OnTertiary { get; set; } = "#ffffff";
+    public override string? Tertiary { get; set; } = "#6981d0";
+    public override string? OnTertiary { get; set; } = "#f0f0f0";
 
-    public override string? Error { get; set; } = "#d41f25";
+    public override string? Error { get; set; } = "#aa3d41";
     public override string? OnError { get; set; } = "#ffffff";
 
     public override string? Background { get; set; } = "#141414";
@@ -34,7 +34,7 @@ public sealed class MidnightScheme : ColorSchemeBase
     public override string? Outline { get; set; } = "#3f3f3f";
     public override string? OutlineVariant { get; set; } = "#292929";
 
-    public override string? Interaction { get; set; } = "#0AFFFFFF";
+    public override string? Interaction { get; set; } = "#0dffffff";
 
     public override string? Shadow { get; set; } = "#000000";
 }
