@@ -26,7 +26,7 @@
         <Setter Property="BorderThickness" Value="0" />
         <Setter Property="CornerRadius" Value="{Binding Source={x:Static properties:Settings.Default}, Path=UI_ButtonCornerRadius, Mode=OneTime}" />
         <Setter Property="BorderBrush" Value="{Binding Source={x:Static properties:Settings.Default}, Path=Color_Outline, Mode=OneTime}" />
-        <Setter Property="Background" Value="{Binding Source={x:Static properties:Settings.Default}, Path=Color_Secondary, Mode=OneTime}" />
+        <Setter Property="Background" Value="{Binding Source={x:Static properties:Settings.Default}, Path=Color_Surface, Mode=OneTime}" />
         <Setter Property="Foreground" Value="{Binding Source={x:Static properties:Settings.Default}, Path=Color_OnSurface, Mode=OneTime}" />
         <Setter Property="Template">
             <Setter.Value>
@@ -125,5 +125,6 @@
            BasedOn="{StaticResource ButtonTonal}"
            TargetType="{x:Type controls:Button}">
         <Setter Property="BorderThickness" Value="1" />
+        <Setter Property="Background" Value="{Binding Source={x:Static properties:Settings.Default}, Path=Color_Secondary, Mode=OneTime}" />
     </Style>
 </ResourceDictionary>

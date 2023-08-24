@@ -4,7 +4,7 @@
                     xmlns:properties="clr-namespace:WhyOrchid.Properties">
 
     <Style TargetType="{x:Type controls:TextBox}">
-        <Setter Property="Background" Value="{Binding Source={x:Static properties:Settings.Default}, Path=Color_Secondary, Mode=OneTime}" />
+        <Setter Property="Background" Value="{Binding Source={x:Static properties:Settings.Default}, Path=Color_Surface, Mode=OneTime}" />
         <Setter Property="Foreground" Value="{Binding Source={x:Static properties:Settings.Default}, Path=Color_OnSurface, Mode=OneTime}" />
         <Setter Property="BorderThickness" Value="1" />
         <Setter Property="BorderBrush" Value="{Binding Source={x:Static properties:Settings.Default}, Path=Color_Outline, Mode=OneTime}" />
