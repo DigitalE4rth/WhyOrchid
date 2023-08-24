@@ -115,8 +115,7 @@
                                   HorizontalAlignment="Right"
                                   RenderOptions.BitmapScalingMode="NearestNeighbor">
                                 <Grid x:Name="OffBackground" Opacity="1">
-                                    <Border x:Name="OffToggleSwitchBack"
-                                            Width="48"
+                                    <Border Width="48"
                                             Height="26"
                                             Background="{Binding Source={x:Static properties:Settings.Default}, Path=Color_InverseSurface, Mode=OneTime}"
                                             CornerRadius="13"
@@ -131,12 +130,25 @@
                                 </Grid>
 
                                 <Grid x:Name="OnBackground" Opacity="0">
-                                    <Border x:Name="OnToggleSwitchBack"
-                                            Width="48"
+                                    <Border Width="48"
                                             Height="26"
                                             Background="{Binding Source={x:Static properties:Settings.Default}, Path=Color_Primary, Mode=OneTime}"
                                             CornerRadius="13"
                                             Opacity="1" />
+
+                                    <Border Width="48"
+                                            Height="26"
+                                            CornerRadius="13"
+                                            Opacity="0.15">
+                                        <Border.Background>
+                                            <LinearGradientBrush StartPoint="0.5,0" EndPoint="0.5,1">
+                                                <GradientStop Offset="0" Color="Black" />
+                                                <GradientStop Offset="0.45" Color="Transparent" />
+                                                <GradientStop Offset="0.65" Color="Transparent" />
+                                                <GradientStop Offset="1" Color="Black" />
+                                            </LinearGradientBrush>
+                                        </Border.Background>
+                                    </Border>
 
                                     <Border x:Name="OnHoverOverlay"
                                             Width="48"

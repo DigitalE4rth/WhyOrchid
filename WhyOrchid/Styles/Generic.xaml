@@ -18,7 +18,6 @@
         <ResourceDictionary Source="Card/CardDropDown.xaml" />
         <ResourceDictionary Source="Card/CardDropDownItem.xaml" />
         <ResourceDictionary Source="Card/CardComboBox.xaml" />
-        <ResourceDictionary Source="Card/ComboBoxItem.xaml" />
         <ResourceDictionary Source="Card/CardElement.xaml" />
         <ResourceDictionary Source="Card/CardToggleButton.xaml" />
         <ResourceDictionary Source="Card/CardElevated.xaml" />
@@ -27,6 +26,7 @@
 
         <!--  Combo Box  -->
         <ResourceDictionary Source="ComboBox/ComboBox.xaml" />
+        <ResourceDictionary Source="ComboBox/ComboBoxItem.xaml" />
 
         <!--  Check boxes  -->
         <ResourceDictionary Source="CheckBox/CheckBoxToggleSwitch.xaml" />

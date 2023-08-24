@@ -54,16 +54,29 @@
                             </Grid.ColumnDefinitions>
 
                             <!--  Bar checked  -->
-                            <Border x:Name="BarChecked"
-                                    Grid.Column="0"
-                                    Grid.ColumnSpan="2"
-                                    Width="3"
-                                    Margin="1,10,0,10"
-                                    HorizontalAlignment="Left"
-                                    VerticalAlignment="Stretch"
-                                    Background="{Binding Source={x:Static properties:Settings.Default}, Path=Color_Primary, Mode=OneTime}"
-                                    CornerRadius="1.5"
-                                    Opacity="0" />
+                            <Grid x:Name="BarChecked"
+                                  Grid.Column="0"
+                                  Grid.ColumnSpan="2"
+                                  Margin="1,10,0,10"
+                                  HorizontalAlignment="Left"
+                                  VerticalAlignment="Stretch"
+                                  Opacity="0">
+
+                                <Border Width="3"
+                                        Background="{Binding Source={x:Static properties:Settings.Default}, Path=Color_Primary, Mode=OneTime}"
+                                        CornerRadius="1.5" />
+
+                                <Border Width="3"
+                                        CornerRadius="1.5"
+                                        Opacity="0.15">
+                                    <Border.Background>
+                                        <LinearGradientBrush StartPoint="0.5,0" EndPoint="0.5,1">
+                                            <GradientStop Offset="0" Color="Transparent" />
+                                            <GradientStop Offset="1" Color="Black" />
+                                        </LinearGradientBrush>
+                                    </Border.Background>
+                                </Border>
+                            </Grid>
 
                             <Grid Grid.Column="1" Margin="{TemplateBinding Padding}">
 
