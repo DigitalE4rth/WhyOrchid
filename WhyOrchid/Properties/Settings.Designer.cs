@@ -97,7 +97,7 @@ namespace WhyOrchid.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("#d41f25")]
+        [global::System.Configuration.DefaultSettingValueAttribute("#b23535")]
         public string Color_Error {
             get {
                 return ((string)(this["Color_Error"]));

@@ -13,7 +13,7 @@ public sealed class MidnightScheme : ColorSchemeBase
     public override string? Tertiary { get; set; } = "#6981d0";
     public override string? OnTertiary { get; set; } = "#f0f0f0";
 
-    public override string? Error { get; set; } = "#c13a3f";
+    public override string? Error { get; set; } = "#b23535";
     public override string? OnError { get; set; } = "#ffffff";
 
     public override string? Background { get; set; } = "#141414";

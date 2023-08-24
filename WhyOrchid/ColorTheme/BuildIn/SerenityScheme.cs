@@ -13,7 +13,7 @@ public sealed class SerenityScheme : ColorSchemeBase
     public override string? Tertiary   { get; set; } = "#645a72";
     public override string? OnTertiary { get; set; } = "#ffffff";
 
-    public override string? Error   { get; set; } = "#d41f25";
+    public override string? Error   { get; set; } = "#b23535";
     public override string? OnError { get; set; } = "#ffffff";
 
     public override string? Background { get; set; } = "#f5f5f5";

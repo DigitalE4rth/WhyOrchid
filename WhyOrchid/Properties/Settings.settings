@@ -21,7 +21,7 @@
       <Value Profile="(Default)">#ffffff</Value>
     </Setting>
     <Setting Name="Color_Error" Type="System.String" Scope="User">
-      <Value Profile="(Default)">#d41f25</Value>
+      <Value Profile="(Default)">#b23535</Value>
     </Setting>
     <Setting Name="Color_OnError" Type="System.String" Scope="User">
       <Value Profile="(Default)">#ffffff</Value>
