@@ -4,7 +4,7 @@ namespace WhyOrchid.ColorTheme.BuildIn;
 
 public sealed class SerenityScheme : ColorSchemeBase
 {
-    public override string? Primary   { get; set; } = "#7764d8";
+    public override string? Primary   { get; set; } = "#2cb065";
     public override string? OnPrimary { get; set; } = "#ffffff";
 
     public override string? Secondary   { get; set; } = "#ffffff";

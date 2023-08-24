@@ -9,61 +9,79 @@
       <Value Profile="(Default)">#f0f0f0</Value>
     </Setting>
     <Setting Name="Color_Secondary" Type="System.String" Scope="User">
-      <Value Profile="(Default)">#222222</Value>
+      <Value Profile="(Default)">#ffffff</Value>
     </Setting>
     <Setting Name="Color_OnSecondary" Type="System.String" Scope="User">
-      <Value Profile="(Default)">#f0f0f0</Value>
+      <Value Profile="(Default)">#000000</Value>
     </Setting>
     <Setting Name="Color_Tertiary" Type="System.String" Scope="User">
-      <Value Profile="(Default)">#6981d0</Value>
+      <Value Profile="(Default)">#645a72</Value>
     </Setting>
     <Setting Name="Color_OnTertiary" Type="System.String" Scope="User">
-      <Value Profile="(Default)">#f0f0f0</Value>
+      <Value Profile="(Default)">#ffffff</Value>
     </Setting>
     <Setting Name="Color_Error" Type="System.String" Scope="User">
-      <Value Profile="(Default)">#aa3d41</Value>
+      <Value Profile="(Default)">#d41f25</Value>
     </Setting>
     <Setting Name="Color_OnError" Type="System.String" Scope="User">
-      <Value Profile="(Default)">#f0f0f0</Value>
+      <Value Profile="(Default)">#ffffff</Value>
     </Setting>
     <Setting Name="Color_Background" Type="System.String" Scope="User">
-      <Value Profile="(Default)">#141414</Value>
+      <Value Profile="(Default)">#f5f5f5</Value>
     </Setting>
     <Setting Name="Color_OnBackground" Type="System.String" Scope="User">
-      <Value Profile="(Default)">#dadada</Value>
+      <Value Profile="(Default)">#505050</Value>
+    </Setting>
+    <Setting Name="Color_InverseBackground" Type="System.String" Scope="User">
+      <Value Profile="(Default)">#000000</Value>
+    </Setting>
+    <Setting Name="Color_OnInverseBackground" Type="System.String" Scope="User">
+      <Value Profile="(Default)">#ffffff</Value>
     </Setting>
     <Setting Name="Color_Surface" Type="System.String" Scope="User">
-      <Value Profile="(Default)">#222222</Value>
+      <Value Profile="(Default)">#fbfbfb</Value>
     </Setting>
     <Setting Name="Color_OnSurface" Type="System.String" Scope="User">
-      <Value Profile="(Default)">#dadada</Value>
+      <Value Profile="(Default)">#505050</Value>
+    </Setting>
+    <Setting Name="Color_InverseSurface" Type="System.String" Scope="User">
+      <Value Profile="(Default)">#000000</Value>
+    </Setting>
+    <Setting Name="Color_OnInverseSurface" Type="System.String" Scope="User">
+      <Value Profile="(Default)">#ffffff</Value>
     </Setting>
     <Setting Name="Color_SurfaceVariant" Type="System.String" Scope="User">
-      <Value Profile="(Default)">#292929</Value>
+      <Value Profile="(Default)">#ffffff</Value>
     </Setting>
     <Setting Name="Color_OnSurfaceVariant" Type="System.String" Scope="User">
-      <Value Profile="(Default)">#8b8b8b</Value>
+      <Value Profile="(Default)">#bf414141</Value>
+    </Setting>
+    <Setting Name="Color_InverseSurfaceVariant" Type="System.String" Scope="User">
+      <Value Profile="(Default)">#000000</Value>
+    </Setting>
+    <Setting Name="Color_OnInverseSurfaceVariant" Type="System.String" Scope="User">
+      <Value Profile="(Default)">#ffffff</Value>
     </Setting>
     <Setting Name="Color_Outline" Type="System.String" Scope="User">
-      <Value Profile="(Default)">#3f3f3f</Value>
+      <Value Profile="(Default)">#dcdcdc</Value>
     </Setting>
     <Setting Name="Color_OutlineVariant" Type="System.String" Scope="User">
-      <Value Profile="(Default)">#292929</Value>
+      <Value Profile="(Default)">#dcdcdc</Value>
     </Setting>
     <Setting Name="Color_Interaction" Type="System.String" Scope="User">
-      <Value Profile="(Default)">#0dffffff</Value>
+      <Value Profile="(Default)">#14383838</Value>
     </Setting>
     <Setting Name="Color_Shadow" Type="System.String" Scope="User">
       <Value Profile="(Default)">#000000</Value>
-    </Setting>
-    <Setting Name="UI_CursorType" Type="System.String" Scope="User">
-      <Value Profile="(Default)">Hand</Value>
     </Setting>
     <Setting Name="UI_ButtonCornerRadius" Type="System.Double" Scope="User">
       <Value Profile="(Default)">5</Value>
     </Setting>
     <Setting Name="UI_CardCornerRadius" Type="System.Double" Scope="User">
       <Value Profile="(Default)">5</Value>
+    </Setting>
+    <Setting Name="UI_CursorType" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Hand</Value>
     </Setting>
     <Setting Name="FontStyle_FontFamily" Type="System.String" Scope="User">
       <Value Profile="(Default)">Segoe UI</Value>
@@ -76,24 +94,6 @@
     </Setting>
     <Setting Name="FontStyle_Small" Type="System.Double" Scope="User">
       <Value Profile="(Default)">12</Value>
-    </Setting>
-    <Setting Name="Color_InverseBackground" Type="System.String" Scope="User">
-      <Value Profile="(Default)">#ffffff</Value>
-    </Setting>
-    <Setting Name="Color_OnInverseBackground" Type="System.String" Scope="User">
-      <Value Profile="(Default)">#000000</Value>
-    </Setting>
-    <Setting Name="Color_InverseSurface" Type="System.String" Scope="User">
-      <Value Profile="(Default)">#ffffff</Value>
-    </Setting>
-    <Setting Name="Color_OnInverseSurface" Type="System.String" Scope="User">
-      <Value Profile="(Default)">#000000</Value>
-    </Setting>
-    <Setting Name="Color_InverseSurfaceVariant" Type="System.String" Scope="User">
-      <Value Profile="(Default)">#ffffff</Value>
-    </Setting>
-    <Setting Name="Color_OnInverseSurfaceVariant" Type="System.String" Scope="User">
-      <Value Profile="(Default)">#000000</Value>
     </Setting>
   </Settings>
 </SettingsFile>
