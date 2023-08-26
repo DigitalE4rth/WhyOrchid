@@ -50,6 +50,9 @@
         <ResourceDictionary Source="Text/TextBlock.xaml" />
         <ResourceDictionary Source="Text/TextBox.xaml" />
 
+        <!--  Tooltip  -->
+        <ResourceDictionary Source="Tooltip/Tooltip.xaml" />
+
         <!--  Utils  -->
         <ResourceDictionary Source="Utils/Separator.xaml" />
 
