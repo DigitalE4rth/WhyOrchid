@@ -12,7 +12,7 @@ using System.Windows;
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Aurora Works")]
 [assembly: AssemblyProduct("WhyOrchid")]
-[assembly: AssemblyCopyright("Copyright © 2023")]
+[assembly: AssemblyCopyright("Copyright © 2023 Aurora Works")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
