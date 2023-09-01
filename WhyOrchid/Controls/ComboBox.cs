@@ -47,6 +47,17 @@ public class ComboBox : System.Windows.Controls.ComboBox
         typeof(object),
         typeof(ComboBox));
 
+    public bool IsFullWidthPopUp
+    {
+        get => (bool)GetValue(IsFullWidthPopUpProperty);
+        set => SetValue(IsFullWidthPopUpProperty, value);
+    }
+
+    public static readonly DependencyProperty IsFullWidthPopUpProperty = DependencyProperty.Register(
+        "IsFullWidthPopUp",
+        typeof(object),
+        typeof(ComboBox));
+
     public CornerRadius CornerRadius
     {
         get => (CornerRadius)GetValue(CornerRadiusProperty);

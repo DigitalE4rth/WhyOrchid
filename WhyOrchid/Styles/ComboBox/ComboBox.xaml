@@ -77,7 +77,8 @@
                           IsChecked="{Binding IsDropDownOpen, Mode=TwoWay, RelativeSource={RelativeSource TemplatedParent}}"
                           Style="{StaticResource WrapperToggle}">
 
-                <Grid>
+                <Grid Margin="{TemplateBinding Padding}">
+
                     <!--  Title  -->
                     <ContentControl x:Name="TitleContent"
                                     Content="{TemplateBinding Title}"
@@ -88,7 +89,6 @@
 
                     <!--  Selected Value  -->
                     <ContentPresenter x:Name="ContentPresenter"
-                                      Margin="{TemplateBinding Padding}"
                                       HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}"
                                       VerticalAlignment="{TemplateBinding VerticalContentAlignment}"
                                       Content="{TemplateBinding SelectionBoxItem}"
@@ -154,6 +154,10 @@
         </Grid>
 
         <ControlTemplate.Triggers>
+
+            <Trigger Property="IsFullWidthPopUp" Value="True">
+                <Setter TargetName="ShadowWrapper" Property="Width" Value="{Binding ElementName=ToggleButtonWrapper, Path=ActualWidth}" />
+            </Trigger>
 
             <Trigger Property="IsMenu" Value="True">
                 <Setter TargetName="TitleContent" Property="Visibility" Value="Visible" />
