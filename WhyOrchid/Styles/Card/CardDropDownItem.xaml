@@ -54,9 +54,15 @@
                                     Margin="1,8,0,8"
                                     HorizontalAlignment="Left"
                                     VerticalAlignment="Stretch"
-                                    Background="{Binding Source={x:Static properties:Settings.Default}, Path=Color_Primary, Mode=OneTime}"
                                     CornerRadius="1.5"
-                                    Opacity="0" />
+                                    Opacity="0">
+                                <Border.Background>
+                                    <LinearGradientBrush StartPoint="0.5,0" EndPoint="0.5,1">
+                                        <GradientStop Offset="0" Color="Transparent" />
+                                        <GradientStop Offset="1" Color="{Binding Source={x:Static properties:Settings.Default}, Path=Color_Surface, Mode=OneTime}" />
+                                    </LinearGradientBrush>
+                                </Border.Background>
+                            </Border>
 
                             <ContentPresenter x:Name="ContentPresenter"
                                               Margin="12.5,0,12.5,0"

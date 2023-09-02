@@ -139,13 +139,13 @@
                                     <Border Width="48"
                                             Height="26"
                                             CornerRadius="13"
-                                            Opacity="0.15">
+                                            Opacity="0.1">
                                         <Border.Background>
                                             <LinearGradientBrush StartPoint="0.5,0" EndPoint="0.5,1">
-                                                <GradientStop Offset="0" Color="Black" />
+                                                <GradientStop Offset="0" Color="{Binding Source={x:Static properties:Settings.Default}, Path=Color_Surface, Mode=OneTime}" />
                                                 <GradientStop Offset="0.45" Color="Transparent" />
                                                 <GradientStop Offset="0.65" Color="Transparent" />
-                                                <GradientStop Offset="1" Color="Black" />
+                                                <GradientStop Offset="1" Color="{Binding Source={x:Static properties:Settings.Default}, Path=Color_Surface, Mode=OneTime}" />
                                             </LinearGradientBrush>
                                         </Border.Background>
                                     </Border>
