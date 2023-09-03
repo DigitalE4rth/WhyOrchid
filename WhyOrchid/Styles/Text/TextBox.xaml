@@ -63,7 +63,7 @@
 
                             <ScrollViewer x:Name="PART_ContentHost"
                                           Grid.Column="1"
-                                          Margin="5,0,0,0"
+                                          Margin="5,0,5,0"
                                           HorizontalContentAlignment="{TemplateBinding HorizontalContentAlignment}"
                                           VerticalContentAlignment="{TemplateBinding VerticalContentAlignment}"
                                           Focusable="false"
